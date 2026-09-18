@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="PTHS (Play To High School) — your trusted partner connecting schools and colleges with quality uniforms and school dress. Book bulk orders online." />
+  <title>PTHS — Play To High School | School Uniforms Made Simple</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== Header / Navigation ===== -->
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand" aria-label="PTHS home">
+        <span class="brand-mark">P</span>
+        <span class="brand-text">
+          <strong>PTHS</strong>
+          <small>Play To High School</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Primary">
+        <a href="#how">How it works</a>
+        <a href="#catalog">Catalog</a>
+        <a href="#partners">Partners</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+        <a href="#order" class="btn btn-primary nav-cta">Book an order</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Trusted uniform mediator for 500+ institutions</span>
+          <h1>Quality school uniforms, <span class="grad">delivered on time.</span></h1>
+          <p class="lead">
+            PTHS connects schools and colleges directly with vetted uniform manufacturers.
+            One dashboard for bulk booking, custom branding, sizing, and doorstep delivery —
+            no middleman markups, no last-minute stock scares.
+          </p>
+          <div class="hero-actions">
+            <a href="#order" class="btn btn-primary btn-lg">Book a bulk order</a>
+            <a href="#catalog" class="btn btn-ghost btn-lg">Browse catalog</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>500+</strong><span>Institutions served</span></li>
+            <li><strong>1.2M+</strong><span>Uniforms delivered</span></li>
+            <li><strong>4.8/5</strong><span>Average rating</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-card card-1">
+            <div class="dot green"></div>
+            <div>
+              <p class="hc-title">Order #PT-2048</p>
+              <p class="hc-sub">Greenfield High · 340 sets</p>
+            </div>
+            <span class="badge ok">Shipped</span>
+          </div>
+          <div class="hero-card card-2">
+            <div class="dot amber"></div>
+            <div>
+              <p class="hc-title">Custom blazer batch</p>
+              <p class="hc-sub">St. Mary's College · 120 pcs</p>
+            </div>
+            <span class="badge prep">In production</span>
+          </div>
+          <div class="hero-card card-3">
+            <div class="swatch s1"></div>
+            <div class="swatch s2"></div>
+            <div class="swatch s3"></div>
+            <div class="swatch s4"></div>
+            <p class="hc-sub">Fabric &amp; color options</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Trusted-by strip ===== -->
+    <section class="trust-strip">
+      <div class="container">
+        <p>Trusted by leading schools &amp; colleges</p>
+        <div class="logos">
+          <span>Greenfield High</span>
+          <span>St. Mary's College</span>
+          <span>Riverside Academy</span>
+          <span>Sunrise Public School</span>
+          <span>Heritage Institute</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== How it works ===== -->
+    <section class="section" id="how">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">How it works</span>
+          <h2>From request to doorstep in four simple steps</h2>
+          <p>We handle the sourcing, quality checks, and logistics so your admin team doesn't have to.</p>
+        </div>
+        <div class="steps">
+          <article class="step">
+            <div class="step-num">1</div>
+            <h3>Register your institution</h3>
+            <p>Create a free school account and share your uniform requirements and design guidelines.</p>
+          </article>
+          <article class="step">
+            <div class="step-num">2</div>
+            <h3>Get a tailored quote</h3>
+            <p>We match you with vetted manufacturers and send transparent, itemized pricing.</p>
+          </article>
+          <article class="step">
+            <div class="step-num">3</div>
+            <h3>Book &amp; track your order</h3>
+            <p>Confirm sizes and quantities online, then track production and shipping in real time.</p>
+          </article>
+          <article class="step">
+            <div class="step-num">4</div>
+            <h3>Doorstep delivery</h3>
+            <p>Uniforms arrive sorted by class and size, ready to distribute to students.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Catalog ===== -->
+    <section class="section section-alt" id="catalog">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Our catalog</span>
+          <h2>Everything a school wardrobe needs</h2>
+          <p>Mix and match across categories. All items are customizable with your crest, colors, and house tags.</p>
+        </div>
+
+        <div class="catalog-grid" id="catalogGrid">
+          <!-- Cards injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Partners ===== -->
+    <section class="section" id="partners">
+      <div class="container partners-grid">
+        <div class="partners-copy">
+          <span class="eyebrow">For schools &amp; colleges</span>
+          <h2>Why institutions choose PTHS</h2>
+          <ul class="feature-list">
+            <li><span class="tick">✓</span> <div><strong>No markup surprises.</strong> Transparent, itemized pricing straight from manufacturers.</div></li>
+            <li><span class="tick">✓</span> <div><strong>Quality guaranteed.</strong> Every batch passes fabric and stitching inspection.</div></li>
+            <li><span class="tick">✓</span> <div><strong>Sizing made easy.</strong> Digital size charts and buffer stock for growing students.</div></li>
+            <li><span class="tick">✓</span> <div><strong>One point of contact.</strong> A dedicated account manager for your institution.</div></li>
+            <li><span class="tick">✓</span> <div><strong>Flexible billing.</strong> Term-wise invoicing and parent-payment portals available.</div></li>
+          </ul>
+          <a href="#order" class="btn btn-primary">Partner with us</a>
+        </div>
+        <div class="partners-panel">
+          <h3>Institution snapshot</h3>
+          <div class="snap-row"><span>Onboarding time</span><strong>Under 48 hours</strong></div>
+          <div class="snap-row"><span>Avg. delivery window</span><strong>10–15 days</strong></div>
+          <div class="snap-row"><span>Min. order</span><strong>50 sets</strong></div>
+          <div class="snap-row"><span>Reorder support</span><strong>Year-round</strong></div>
+          <div class="snap-note">Need a custom design? Our team turns your sketch into a production-ready sample in a week.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section section-alt" id="about">
+      <div class="container about-grid">
+        <div class="about-visual" aria-hidden="true">
+          <div class="about-block b1">Play</div>
+          <div class="about-block b2">To</div>
+          <div class="about-block b3">High School</div>
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow">About PTHS</span>
+          <h2>From playgroup to high school, we've got them covered</h2>
+          <p>
+            PTHS — Play To High School — began with a simple belief: getting quality uniforms
+            to students shouldn't be a headache for schools or a burden on parents. We act as a
+            trusted mediator between educational institutions and reliable manufacturers, cutting
+            out inflated middleman costs while keeping quality high.
+          </p>
+          <p>
+            Today we serve institutions of every size, from small playgroups to large colleges,
+            with a single promise: the right uniform, the right fit, delivered on time.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Order booking form ===== -->
+    <section class="section" id="order">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Book an order</span>
+          <h2>Request a quote for your institution</h2>
+          <p>Fill in the details below and our team will get back within one business day with a tailored quote.</p>
+        </div>
+
+        <form class="order-form" id="orderForm" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="school">Institution name *</label>
+              <input type="text" id="school" name="school" placeholder="e.g. Greenfield High School" required />
+              <small class="err" data-for="school"></small>
+            </div>
+            <div class="field">
+              <label for="contactName">Contact person *</label>
+              <input type="text" id="contactName" name="contactName" placeholder="Full name" required />
+              <small class="err" data-for="contactName"></small>
+            </div>
+            <div class="field">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" placeholder="name@school.edu" required />
+              <small class="err" data-for="email"></small>
+            </div>
+            <div class="field">
+              <label for="phone">Phone *</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 555 000 1234" required />
+              <small class="err" data-for="phone"></small>
+            </div>
+            <div class="field">
+              <label for="institutionType">Institution type</label>
+              <select id="institutionType" name="institutionType">
+                <option value="Playgroup">Playgroup / Pre-school</option>
+                <option value="Primary">Primary school</option>
+                <option value="High School" selected>High school</option>
+                <option value="College">College</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="quantity">Approx. number of sets *</label>
+              <input type="number" id="quantity" name="quantity" min="50" placeholder="Minimum 50" required />
+              <small class="err" data-for="quantity"></small>
+            </div>
+          </div>
+
+          <fieldset class="field">
+            <legend>Items needed</legend>
+            <div class="checks" id="itemChecks">
+              <label><input type="checkbox" name="items" value="Shirts" /> Shirts</label>
+              <label><input type="checkbox" name="items" value="Trousers/Skirts" /> Trousers / Skirts</label>
+              <label><input type="checkbox" name="items" value="Blazers" /> Blazers</label>
+              <label><input type="checkbox" name="items" value="Sports kit" /> Sports kit</label>
+              <label><input type="checkbox" name="items" value="Ties & Belts" /> Ties &amp; Belts</label>
+              <label><input type="checkbox" name="items" value="Shoes" /> Shoes</label>
+            </div>
+          </fieldset>
+
+          <div class="field">
+            <label for="notes">Additional notes</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Colors, crest details, delivery deadline, etc."></textarea>
+          </div>
+
+          <div class="form-footer">
+            <button type="submit" class="btn btn-primary btn-lg">Submit request</button>
+            <p class="form-note">By submitting you agree to be contacted by the PTHS team. No spam, ever.</p>
+          </div>
+
+          <div class="form-success" id="formSuccess" hidden>
+            <span class="check-circle">✓</span>
+            <div>
+              <strong>Request received!</strong>
+              <p id="successMsg">Thanks — our team will reach out within one business day.</p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== Testimonials ===== -->
+    <section class="section section-alt" id="testimonials">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">What partners say</span>
+          <h2>Loved by administrators across the country</h2>
+        </div>
+        <div class="quotes">
+          <figure class="quote">
+            <blockquote>PTHS took uniform procurement completely off our plate. Sorted by class, delivered early, zero complaints from parents.</blockquote>
+            <figcaption><span class="avatar">A</span><div><strong>Anita Rao</strong><small>Principal, Greenfield High</small></div></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>The transparent pricing was the game-changer. We finally know exactly what we're paying for.</blockquote>
+            <figcaption><span class="avatar">M</span><div><strong>Michael Dsouza</strong><small>Admin Head, St. Mary's College</small></div></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>Custom blazers with our crest, produced from a sketch in a week. Genuinely impressed.</blockquote>
+            <figcaption><span class="avatar">S</span><div><strong>Sunita Menon</strong><small>Director, Sunrise Public School</small></div></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact / CTA ===== -->
+    <section class="section cta-band" id="contact">
+      <div class="container cta-inner">
+        <div>
+          <h2>Ready to simplify your uniform program?</h2>
+          <p>Talk to our team or book a bulk order today. We'll handle the rest.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="#order" class="btn btn-light btn-lg">Book an order</a>
+          <a href="mailto:hello@pths.example" class="btn btn-outline-light btn-lg">hello@pths.example</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="brand">
+          <span class="brand-mark">P</span>
+          <span class="brand-text"><strong>PTHS</strong><small>Play To High School</small></span>
+        </a>
+        <p>Your trusted mediator for school &amp; college uniforms — quality sourcing, transparent pricing, on-time delivery.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#how">How it works</a>
+        <a href="#catalog">Catalog</a>
+        <a href="#partners">Partners</a>
+        <a href="#about">About</a>
+      </div>
+      <div class="footer-col">
+        <h4>Get started</h4>
+        <a href="#order">Book an order</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:hello@pths.example">hello@pths.example</a>
+        <a href="tel:+15550001234">+1 555 000 1234</a>
+        <span>Mon–Sat · 9am–6pm</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> PTHS — Play To High School. All rights reserved.</span>
+      <span>Made for schools &amp; colleges.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
